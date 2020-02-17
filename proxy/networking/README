@@ -1,0 +1,15 @@
+java -Djava.security.policy=xyz Server 34525
+
+-bash-4.2$ cd h212-workspace/
+-bash-4.2$ cd rmi/
+-bash-4.2$ java Client silo.cs.indiana.edu 34525 Xavier
+Xavier receives: ***(Adrian says: Howdy!)***
+Xavier receives: ***(Xavier says: Howdy!)***
+Xavier receives: ***(Adrian says: Howdy!)***
+Xavier receives: ***(Xavier says: Howdy!)***
+^C-bash-4.2$ hostname
+blesmol.soic.indiana.edu
+-bash-4.2$
+
+
+and the same from the other
