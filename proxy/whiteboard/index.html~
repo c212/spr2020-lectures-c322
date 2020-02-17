@@ -1,0 +1,50 @@
+<html><head><title>The Net Worth of an Object-Oriented Pattern: Practical Implications </title></head>
+<body bgcolor=white>
+
+There's a shorter and more general description I will include here. <p> 
+
+The abstraction is likely to be 
+
+<ul>
+
+<li> more succinct, 
+<li> more powerful, but 
+<li> farther removed from the idea of a tutorial. <p> 
+
+</ul> 
+
+<p> So this page will accompany the paper with extra info. <p> 
+
+(Here's a working 
+<a href="http://www.cs.indiana.edu/classes/a348/spr2004/rmi/networth/">version</a> 
+of the introduction, dated Feb 17-18, 2004). <p> 
+
+<img src="http://www.cs.indiana.edu/classes/a113-dger/left.gif"> 
+Meanwhile <a href="overview.txt">here</a>'s the code for 
+section 5 of the paper: <p> 
+
+<ul>
+
+<li> all classes are listed in alphabetical order
+<li> you need to <code><font color="brown">javac *.java</font></code> first
+<li> then <code><font color="brown">rmic NetworkClient</font></code> and <code><font color="brown">rmic NetworkServer</font></code>
+<li> then you can run <code><font color="brown">java Simulation</font></code> on just one machine (for
+example, <code><font color="brown">bobac</font></code>) 
+<li> or start the server on <code><font color="brown">burrowww</font></code> (<code><font color="brown">java NetworkServer 19086</font></code>)
+<li> and the clients on other machines (<code><font color="brown">bobac</font></code>, 
+<code><font color="brown">blesmol</font></code>, <code><font color="brown">molerat</font></code> and so on), 
+<li> ... as follows: <code><font color="brown">java NetworkClient burrowww.cs.indiana.edu 19086 &lt;clientName&gt;</font></code>
+
+</ul> 
+
+<p> The rest of the code in the paper will be posted here shortly. 
+
+<p> A short and original tutorial will also be included, separately. <p> 
+
+(The early January version of the paper can be found 
+<a href="papers/fie2004.pdf">here</a>). <p> 
+
+<hr> Last updated: <em>Thu Feb 19 10:35:36 EST 2004</em>  
+
+</body>
+</html>
